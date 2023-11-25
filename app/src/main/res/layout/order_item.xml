@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#f8f8f2"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    >
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:src="@drawable/exm"
+        android:id="@+id/thumbnail_food"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cơm gà xối mở - Hàm nghi"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/tv_name_food"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12 : 00 12/04/2023"
+            android:id="@+id/tv_date_order"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ff7560"
+                android:text="Chi tiết"
+                android:id="@+id/btn_detail"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:layout_height="wrap_content"
+                android:text="140 vnd"
+                android:textSize="14sp"
+                android:id="@+id/tv_cost"
+                android:textColor="#999f6d"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+</LinearLayout>

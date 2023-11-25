@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "85709161674",
+    "firebase_url": "https://appmapdemo-b2a39-default-rtdb.firebaseio.com",
+    "project_id": "appmapdemo-b2a39",
+    "storage_bucket": "appmapdemo-b2a39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85709161674:android:0e004d86761ea493c9a033",
+        "android_client_info": {
+          "package_name": "com.example.mapdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQLAuv1ifOEyZYB1W1MFMd6PeP0rnc9tQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

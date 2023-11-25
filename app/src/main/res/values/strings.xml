@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MapDemo</string>
+<!--    <string name="api_key">AIzaSyCwODDdAAlVuYb27NKf_vp0Vow4wRANZ6o</string>-->
+<!--        <string name="api_key">AIzaSyAAgZtyV2eZj-Sg9w0aa3l_4_JHnhv0Mjw</string>-->
+        <string name="api_key">AIzaSyAvGEN00rga0fODH-EwKK6kFLwP894s-ds</string>
+</resources>
